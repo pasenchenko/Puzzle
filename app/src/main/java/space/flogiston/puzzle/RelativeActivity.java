@@ -12,7 +12,7 @@ public class RelativeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_frame);
+        setContentView(R.layout.activity_relative);
     }
     public void tileHide (View view) {
         view.setVisibility(View.INVISIBLE);

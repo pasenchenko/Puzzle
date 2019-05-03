@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Relative" />
+        android:text="Picture 1" />
 
     <Button
         android:id="@+id/frameButton"
@@ -20,6 +20,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/relativeButton"
         android:layout_centerHorizontal="true"
-        android:text="Frame" />
+        android:text="Picture 2" />
 
 </RelativeLayout>
